@@ -8,6 +8,7 @@ If you want to contribute to this repository, please fork it first and clone tha
 
 ```
 gem install jekyll bundler
+bundle install
 bundle exec middleman server
 ```
 
