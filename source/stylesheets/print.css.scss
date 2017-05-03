@@ -7,12 +7,14 @@
 @import 'navbar';
 @import 'normalize';
 @import 'pre-content';
+@import 'pre-footer';
 @import 'variables';
 @import 'icon-font';
 
 // Layouts
 @import 'layouts/index';
 @import 'layouts/blog';
+@import 'layouts/simple';
 
 /*
 Copyright 2008-2013 Concur Technologies, Inc.

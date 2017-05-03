@@ -1,14 +1,21 @@
 
 ////////////////////////////////////////////////////////////////////////////////
-// PRE-CONTENT
+// PRE-FOOTER
 ////////////////////////////////////////////////////////////////////////////////
 
 @import 'colors';
 
-.pre-content {
+.pre-footer {
   background: $pf-blue-300;
   color: #FFFFFF;
-  margin: -10px -20px 0;
-  padding: 30px 100px 40px;
+  font-size: 16px;
+  //height: 200px;
+  height: 75px;
+  padding: 25px;
   text-align: center;
+
+  p {
+    font-style: italic;
+  }
 }
+

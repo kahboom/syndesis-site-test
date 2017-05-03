@@ -13,13 +13,29 @@
   text-align: center;
   z-index: 4000;
 
+  p {
+    margin: 0;
+    font-size: 18px;
+
+    &:first-of-type {
+      font-size: 20px;
+    }
+  }
+
   .actions {
+    margin-top: 25px;
+
     .btn {
       background-color: #FFFFFF;
       border-radius: 10px;
       color: $pf-blue-400;
       padding: 10px 15px;
       margin: 10px 0;
+    }
+
+    .btn:hover {
+      background-color: $pf-blue-100;
+      color: $pf-blue-600;
     }
   }
 

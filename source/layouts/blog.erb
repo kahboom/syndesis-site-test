@@ -45,10 +45,12 @@ under the License.
     <div class="page-wrapper">
 
 	  <div class="row header">
-        <div class="title">
-      	  <h2><%= current_page.data.title %></h2>
-      	</div>
-      </div>
+	    <div class="title">
+	      <h1><%= current_page.data.title %></h1>
+	      <p>by <span class="author"><%= current_page.data.author %></span> on <%= current_page.data.date %></p>
+	    </div>
+	    <div class="share"></div>
+	  </div>
 
       <div class="row content">
         <%= yield %>

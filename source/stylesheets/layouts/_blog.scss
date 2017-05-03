@@ -4,8 +4,27 @@
 
 @import '../colors';
 @import '../fonts';
+@import '../variables';
 
 body.blog {
+  a {
+    cursor: pointer;
+  }
+
+  .content {
+    padding: 35px 25px 0;
+
+    h2 {
+      @extend %header-font;
+      border-top: none;
+      background-image: none;
+      font-size: 20px;
+      margin-top: 0;
+      padding: 20px 0 30px;
+      text-align: left;
+    }
+  }
+
   .hero {
     display: none;
   }
@@ -13,4 +32,26 @@ body.blog {
   .pre-content {
     display: none;
   }
+
+  .header {
+    background: $pf-blue-300;
+    color: #FFFFFF;
+    cursor: default;
+    margin: 5px -20px 0;
+    padding: 40px 25px;
+
+    .title {
+      float: left;
+
+      .author {
+        color: $pf-blue-500;
+      }
+    }
+
+    .share {
+      float: right;
+    }
+  }
+
+  .article {}
 }
