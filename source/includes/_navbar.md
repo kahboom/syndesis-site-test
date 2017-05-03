@@ -4,7 +4,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li><a href="https://github.com/syndesisio/syndesis.io" rel="nofollow" target="_blank">GitHub</a></li>
-      <li><a href="contact">Contact</a></li>
+      <li><a href="https://kahboom.github.io/syndesis-site-test/contact">Contact</a></li>
     </ul>
   </div>
 </div>
