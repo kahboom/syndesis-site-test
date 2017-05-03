@@ -33,6 +33,11 @@ set :relative_links, true
 # Layouts
 #page "/blog/*", :layout => "blog"
 
+page '/README.md', layout: false
+page '/*.xml', layout: false
+page '/*.json', layout: false
+page '/*.txt', layout: false
+
 
 # Build Configuration
 configure :build do
