@@ -1,5 +1,12 @@
 //= require ./lib/_energize
-//= require ./app/_lang
-//= require ./app/_areas
-//= require ./app/_search
-//= require ./app/_toc
+//= require ../../node_modules/jquery/dist/jquery.js
+//= require ../../node_modules/jquery-match-height/dist/jquery.matchHeight.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.dataTables.patternfly-functions.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.dataTables.patternfly-settings.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.dataTables.pfColVis.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.dataTables.pfEmpty.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.dataTables.pfFilter.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.dataTables.pfPagination.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.dataTables.pfResize.js
+//= require ../../node_modules/patternfly/dist/js/patternfly.dataTables.pfSelect.js

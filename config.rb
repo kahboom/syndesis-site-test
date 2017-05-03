@@ -17,16 +17,14 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
 
-# Activate the syntax highlighter
-activate :syntax
-ready do
-  require './lib/multilang.rb'
-  require './lib/tabs.rb'
-end
-
 activate :asciidoc
 activate :directory_indexes
-activate :sprockets
+
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.sources = "{category}/{title}.html"
+  blog.taglink = "categories/{tag}.html"
+end
 
 activate :autoprefixer do |config|
   config.browsers = ['last 2 version', 'Firefox ESR']
@@ -39,9 +37,8 @@ activate :relative_assets
 set :relative_links, true
 
 # Layouts
-page "/api-docs/*", :layout => "api-docs"
-page "/developers/*", :layout => "developers"
-page "/users/*", :layout => "users"
+page "/blog/*", :layout => "blog"
+
 
 # Build Configuration
 configure :build do
@@ -56,7 +53,7 @@ end
 
 # Deploy Configuration
 # If you want Middleman to listen on a different port, you can set that below
-set :port, 4567
+set :port, 5678
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git

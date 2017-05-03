@@ -1,0 +1,80 @@
+
+////////////////////////////////////////////////////////////////////////////////
+// TOP NAVIGATION
+////////////////////////////////////////////////////////////////////////////////
+
+@import 'colors';
+
+.navbar {
+  position: fixed;
+  background: $pf-blue-400;
+  border: 0;
+  color: #FFFFFF;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 5000;
+
+  a {
+    cursor: pointer;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+
+    li {
+      float: left;
+      padding: 17px 0;
+
+      a {
+        color: #fff;
+        cursor: pointer;
+        font-family: "Open Sans", "Open Sans Condensed", "Raleway", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        opacity: .8;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .logo {
+    cursor: pointer;
+
+    .navbar-brand {
+      background-image: url("../images/syndesis-01.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      color: transparent;
+      display: block;
+      font-size: 0px/0px a;
+      margin: 20px 20px 20px 20px;
+      margin-left: 25px !important;
+      text-shadow: none;
+      width: 122px;
+    }
+  }
+
+  .nav {
+    li {
+      a:hover, a:focus {
+        text-decoration: none;
+        background: none;
+      }
+    }
+  }
+
+  .navbar-nav {
+    float: right;
+    padding-right: 20px;
+  }
+}
+

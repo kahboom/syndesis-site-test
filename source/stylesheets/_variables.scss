@@ -86,7 +86,8 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
 ////////////////////////////////////////////////////////////////////////////////
 
 %default-font {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+  //font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+  font-family: "Open Sans", "Open Sans Condensed", "Raleway", "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
   font-size: 13px;
 }
 

@@ -1,0 +1,14 @@
+{
+  "name": "syndesisio.github.io",
+  "version": "1.0.0",
+  "description": "Syndesis website.",
+  "main": "server.js",
+  "repository": "git@github.com:syndesisio/syndesisio.github.io",
+  "author": "Red Hat Syndesis Admin <syndesis-admin@googlegroups.com>",
+  "dependencies": {
+    "patternfly": "3.23.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
