@@ -20,12 +20,6 @@ set :fonts_dir, 'fonts'
 activate :asciidoc
 activate :directory_indexes
 
-activate :blog do |blog|
-  blog.prefix = "blog"
-  blog.sources = "{category}/{title}.html"
-  blog.taglink = "categories/{tag}.html"
-end
-
 activate :autoprefixer do |config|
   config.browsers = ['last 2 version', 'Firefox ESR']
   config.cascade  = false
@@ -37,7 +31,7 @@ activate :relative_assets
 set :relative_links, true
 
 # Layouts
-page "/blog/*", :layout => "blog"
+#page "/blog/*", :layout => "blog"
 
 
 # Build Configuration

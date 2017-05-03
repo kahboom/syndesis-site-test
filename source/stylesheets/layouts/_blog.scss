@@ -5,4 +5,12 @@
 @import '../colors';
 @import '../fonts';
 
-body.blog {}
+body.blog {
+  .hero {
+    display: none;
+  }
+
+  .pre-content {
+    display: none;
+  }
+}

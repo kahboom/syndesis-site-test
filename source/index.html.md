@@ -1,12 +1,10 @@
 ---
 title: Syndesis
-hero: true
-precontent: true
-search: false
 ---
 
+## Announcing Syndesis, the world's leading open source iPaaS. Read more [here](/blog/news/1.0.0-release).
 
-## We're hard at work building the platform's community site. Check back often for updates on progress, or <strong>sign up to our mailing list</strong> to get the latest news as it happens.
+We're hard at work building the platform's community site. Check back often for updates on progress, or <strong>sign up to our mailing list</strong> to get the latest news as it happens.
 
 <a href="https://groups.google.com/forum/#!forum/syndesis" class="btn btn-primary btn-lg">Subscribe to the Mailing List</a>
 

@@ -43,13 +43,8 @@ under the License.
     </a>
 
     <div class="page-wrapper">
-    <% if current_page.data.hero %>
-      <%= partial "includes/hero" %>
-    <% end %>
-
-    <% if current_page.data.precontent %>
-      <%= partial "includes/pre-content" %>
-    <% end %>
+    <%= partial "includes/hero" %>
+    <%= partial "includes/pre-content" %>
 
       <div class="row content">
         <%= yield %>
