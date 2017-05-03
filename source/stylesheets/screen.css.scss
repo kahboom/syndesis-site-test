@@ -94,7 +94,8 @@ html, body {
 .content {
   // to place content above the dark box
   position: relative;
-  padding: 50px 25px 25px;
+  //padding: 50px 25px 25px;
+  padding: 25px;
   margin-bottom: 200px;
   z-index: 30;
 
@@ -102,6 +103,31 @@ html, body {
     content: '';
     display: block;
     clear: both;
+  }
+
+  .btn {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+
+    &:hover {
+      background-color: $pf-blue-200;
+      color: $pf-blue-600;
+    }
+  }
+
+  .btn-primary {
+    background-color: $pf-blue-400 !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+    text-shadow: none;
+
+    &:hover {
+      background-color: $pf-blue-300 !important;
+      //color: $pf-blue-600 !important;
+    }
   }
 
   ////////////////////////////////////////////////////////////////////////////////
@@ -318,6 +344,10 @@ html, body {
     @extend %icon-ok-sign;
   }
 }
+
+
+
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // RESPONSIVE DESIGN

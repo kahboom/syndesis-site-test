@@ -12,3 +12,16 @@
   padding: 30px 100px 40px;
   text-align: center;
 }
+
+.header {
+  background: $pf-blue-300;
+  color: #FFFFFF;
+  cursor: default;
+  margin: 45px -20px 0;
+  padding: 10px 25px;
+  font-size: 14px;
+
+  .title {
+    float: left;
+  }
+}

@@ -1,6 +1,7 @@
 ---
 title: Contact
 layout: simple
+permalink: /contact
 ---
 
 A list of iPaaS points of contact and core contributors. This is likely not 100% up-to-date or correct, so feel free to correct as necessary. Also, please note that many of these hardworking folk have cross-collaborated (both UI and API, backend and API, etc).
