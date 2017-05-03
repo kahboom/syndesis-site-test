@@ -1,0 +1,18 @@
+<h1 id="syndesis">Syndesis</h1>
+
+<p>The GitHub repository for the Syndesis website.</p>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>If you want to contribute to this repository, please fork it first and clone that fork to your computer. Then, to run it you must have Ruby, <a href="http://jekyllrb.com/" target="_blank" rel="nofollow">Jekyll</a>, and <a href="http://bundler.io/" target="_blank" rel="nofollow">Bundler</a> installed. Linux-based distros usually come with Ruby installed already. If not, please use <a href="http://rbenv.org/" target="_blank" rel="nofollow">rbenv</a> or <a href="https://rvm.io/" target="_blank" rel="nofollow">RVM</a> to manage your Ruby installations.</p>
+
+<pre><code class="prettyprint">gem install jekyll bundler
+bundle install
+bundle exec middleman server
+</code></pre>
+
+<p>You should be able to see the Red Hat iPaaS website in your browser on <code class="prettyprint">http://localhost:5678</code>.</p>
+
+<h3 id="building-deploying-to-github-pages">Building &amp; Deploying to GitHub Pages</h3>
+
+<p>We currently use <a href="https://github.com/middleman-contrib/middleman-deploy">middleman-deploy</a> to deploy the iPaaS website. Make sure to have the Bundler and Middleman CLI installed locally and run <code class="prettyprint">bundle exec middleman deploy</code>.</p>
