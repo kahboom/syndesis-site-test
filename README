@@ -1,18 +1,21 @@
-<h1 id="syndesis">Syndesis</h1>
+<p>////////////////////////////////////////////////////////////////////////////////
+// SYNDESIS WEBSITE
+////////////////////////////////////////////////////////////////////////////////</p>
 
-<p>The GitHub repository for the Syndesis website.</p>
+<p>The GitHub repository for the Syndesis website located at https://kahboom.github.io/syndesis-site-test/.</p>
 
-<h2 id="contributing">Contributing</h2>
+<p>//&mdash; CONTRIBUTING &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-&gt;&gt;</p>
 
-<p>If you want to contribute to this repository, please fork it first and clone that fork to your computer. Then, to run it you must have Ruby, <a href="http://jekyllrb.com/" target="_blank" rel="nofollow">Jekyll</a>, and <a href="http://bundler.io/" target="_blank" rel="nofollow">Bundler</a> installed. Linux-based distros usually come with Ruby installed already. If not, please use <a href="http://rbenv.org/" target="_blank" rel="nofollow">rbenv</a> or <a href="https://rvm.io/" target="_blank" rel="nofollow">RVM</a> to manage your Ruby installations.</p>
+<p>If you want to contribute to this repository, please fork it first and clone that fork to your computer. Then, to run it you must have Ruby, Jekyll, and Bundler installed. Linux-based distros usually come with Ruby installed already. If not, please use rbenv or RVM to manage your Ruby installations.</p>
 
-<pre><code class="prettyprint">gem install jekyll bundler
+<p>//&mdash; RUNNING LOCALLY &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-&gt;&gt;</p>
+
+<p>gem install jekyll bundler
 bundle install
-bundle exec middleman server
-</code></pre>
+bundle exec middleman server</p>
 
 <p>You should be able to see the Red Hat iPaaS website in your browser on <code class="prettyprint">http://localhost:5678</code>.</p>
 
-<h3 id="building-deploying-to-github-pages">Building &amp; Deploying to GitHub Pages</h3>
+<p>//&mdash; BUILDING &amp; DEPLOYING TO GITHUB PAGES &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-&gt;&gt;</p>
 
-<p>We currently use <a href="https://github.com/middleman-contrib/middleman-deploy">middleman-deploy</a> to deploy the iPaaS website. Make sure to have the Bundler and Middleman CLI installed locally and run <code class="prettyprint">bundle exec middleman deploy</code>.</p>
+<p>We currently use middleman-deploy to deploy the iPaaS website. Make sure to have the Bundler and Middleman CLI installed locally and run <code class="prettyprint">bundle exec middleman deploy</code>.</p>
