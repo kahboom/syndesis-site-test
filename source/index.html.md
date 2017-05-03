@@ -2,7 +2,7 @@
 title: Syndesis
 ---
 
-## Announcing Syndesis, the world's leading open source iPaaS. Read more [here](https://kahboom.github.io/syndesis-site-test/blog/news/1.0.0-release).
+## Announcing Syndesis, an open source iPaaS for everyone. Read more [here](https://kahboom.github.io/syndesis-site-test/blog/news/1.0.0-release).
 
 We're hard at work building the platform's community site. Check back often for updates on progress, or <strong>sign up to our mailing list</strong> to get the latest news as it happens.
 
@@ -12,6 +12,6 @@ We're hard at work building the platform's community site. Check back often for 
 
 Syndesis utilizes a browser-based interface that allows users to easily create and manage integrations using pre-defined connections.
 
-Thanks to the power of Apache Camel, Syndesis allows users to integrate all widely used services and software, transforming data on demand.
+Thanks to the power of <a href="http://camel.apache.org/" target="_blank" rel="nofollow" title="Camel">Apache Camel</a>, Syndesis allows users to integrate all widely used services and software, transforming data on demand.
 
 Switch between the designer in your browser and code in your IDE for full control and flexibility.

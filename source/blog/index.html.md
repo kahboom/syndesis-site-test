@@ -4,4 +4,4 @@ permalink: /blog/
 layout: blog
 ---
 
-Blog posts.
+
