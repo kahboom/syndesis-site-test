@@ -6,7 +6,7 @@
         <h2>Get the source code</h2>
         <p>Stay tuned to contribute or build your own solution.</p>
         <p>
-          <a href="https://github.com/syndesisio" rel="nofollow" target="_blank" class="btn btn-block btn-sm btn-default">
+          <a href="https://github.com/syndesisio" rel="nofollow" target="_blank" class="btn btn-block btn-sm">
           Syndesis on GitHub
           </a>
         </p>
@@ -16,7 +16,7 @@
         <h2>Connect with us</h2>
         <p>Chat with the Syndesis team and the Syndesis community at our Freenode IRC channel.</p>
         <p>
-          <a href="irc://freenode.net/syndesis" rel="nofollow" target="_blank" class="btn btn-sm btn-block btn-default">#syndesis on Freenode IRC</a>
+          <a href="irc://freenode.net/syndesis" rel="nofollow" target="_blank" class="btn btn-sm btn-block">#syndesis on Freenode IRC</a>
         </p>
       </section>
     </div>

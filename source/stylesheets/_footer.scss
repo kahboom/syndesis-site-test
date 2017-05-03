@@ -17,10 +17,14 @@
     margin-top: 35px;
 
     .btn-block {
+      background: $pf-red-200;
       border-radius: 10px;
+      color: #FFFFFF;
+      cursor: pointer;
       font-size: 16px;
-      margin: 30px 0;
+      margin: 25px auto;
       padding: 10px 0;
+      width: 40%;
     }
   }
 
