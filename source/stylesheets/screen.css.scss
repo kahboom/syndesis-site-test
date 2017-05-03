@@ -111,11 +111,6 @@ html, body {
     box-shadow: none;
     padding: 10px 15px;
     margin: 10px 0;
-
-    &:hover {
-      background-color: $pf-blue-200;
-      color: $pf-blue-600;
-    }
   }
 
   .btn-primary {
@@ -126,7 +121,6 @@ html, body {
 
     &:hover {
       background-color: $pf-blue-300 !important;
-      //color: $pf-blue-600 !important;
     }
   }
 
